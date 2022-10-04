@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.wrapper {
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;
+  background-color: #f9fcff
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #fff;
+  background-color: #2fa0f6;
+  min-width: 120px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.button span {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .button span {
+    display: initial;
+  }
+}
+
+.button--icon {
+  min-width: initial;
+  padding: 0.5rem;
+}
+
+.main-icon {
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  180px;       /* ※縦横を同値に */
+  height: 180px;       /* ※縦横を同値に */
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-right: 60px;
+
+  background: #f3f3f3;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;  
+}
+
+.user-plate {
+  display: flex
+}
+
+.user-data {
+  margin: auto;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.main-name {
+  font: bolder;
+  font-size: 30px;
+  margin-left: -3px;
+}
+
+.user-name {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 14px;
+  color: #6e6e6e;
+}
+
+.user-detail {
+  font-size: medium;
+  margin-top: 8px;
+}
+
+div.main-script h1 {
+  font-size: x-large;
+}
+
+div.main-script a {
+  font-size: large;
+  line-height: 1.3em;
+}
+
+div.main-script {
+  padding-top: 20px;
+}
+
+h1 {
+  padding-top: 28px;
+}
+
+@media (max-width: 1299px) {
+  div.main-script {
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1300px) {
+  div.main-script {
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
