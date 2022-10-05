@@ -10,6 +10,7 @@
 .site-header {
     position: relative;
     background-color: #353535;
+    z-index:10000
 }
 
 .site-header__wrapper {

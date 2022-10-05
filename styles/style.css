@@ -15,7 +15,7 @@
 
 a {
   text-decoration: none;
-  color: #222;
+  color: #5d627b;
 }
 
 html {
@@ -88,12 +88,33 @@ body {
   margin-right: 60px;
 
   background: #f3f3f3;
-  box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;  
+  box-shadow:  20px 20px 60px #c9c9c9,
+             -20px -20px 60px #ffffff;
+  z-index: -1;
 }
 
-.user-plate {
-  display: flex
+.user-plate-outer {
+  padding: 0.3em 1em 2em ;
+  margin: 0 auto;
+  color: #5d627b;
+  background: f9fcff;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.28);
+  width: 650px;
+
+}
+.user-plate-outer p {
+  margin: 0; 
+  padding: 0;
+}
+
+.user-plate-wrapper {
+  padding-top: 30px;
+}
+
+.user-plate-inner {
+  display: flex;
+  user-select: none;
 }
 
 .user-data {
@@ -136,20 +157,34 @@ div.main-script {
 
 h1 {
   padding-top: 28px;
+  font-weight: bold;
+  color: #505469;
 }
 
-@media (max-width: 1299px) {
-  div.main-script {
-    align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+.main-script-inner a, h1 {
+  vertical-align: 0.5rem;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+@media (max-width: 1399px) {
+  .main-script-outer {
+    text-align: center;
+  }
+  .main-script-inner {
+    text-align: left;
+    display: inline-block;
+    width:85%;
   }
 }
 
-@media (min-width: 1300px) {
-  div.main-script {
-    align-items: center;
-    padding-left: 400px;
-    padding-right: 400px;
+@media (min-width: 1400px) {
+  .main-script-outer {
+    text-align: center;
+  }
+  .main-script-inner {
+    text-align: left;
+    display: inline-block;
+    width:60%;
   }
 }
