@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 .wrapper {
   max-width: 1140px;
   padding-left: 1rem;
@@ -183,7 +185,6 @@ h1 {
   display: none;
 }
 
-
 @media screen and (max-width:800px) {
   .user-plate-wrapper {
     display: none;
@@ -204,13 +205,14 @@ h1 {
               -20px -20px 60px #ffffff;
     z-index: -1;
   }
+
   .user-plate-responsive {
     text-align: center;
     display: block;
     font-family: 'Caveat', cursive;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 50px;
-    line-height: 2rem;
+    line-height: 3rem;
   }
   .main-script-outer {
     margin-top: 30px;
