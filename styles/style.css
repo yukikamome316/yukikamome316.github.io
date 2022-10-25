@@ -186,8 +186,8 @@ h1 {
   }
   .main-icon-responsive {
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-    width:  140px;       /* ※縦横を同値に */
-    height: 140px;       /* ※縦横を同値に */
+    width:  200px;       /* ※縦横を同値に */
+    height: 200px;       /* ※縦横を同値に */
     display: block;
     margin: 0 auto;
     margin-top: 40px;
@@ -199,13 +199,13 @@ h1 {
   }
   .user-plate-responsive {
     text-align: center;
-    font-family: 'Sacramento', cursive;
-    font-size: 23px;
-    margin-top: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    margin-top: 50px;
     line-height: 2rem;
   }
   .main-script-outer {
-    margin-top: 18px;
+    margin-top: 30px;
   }
 
 }
