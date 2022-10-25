@@ -176,6 +176,13 @@ h1 {
   width:60%;
 }
 
+.main-icon-responsive {
+  display: none;
+}
+.user-plate-responsive {
+  display: none;
+}
+
 
 @media screen and (max-width:800px) {
   .user-plate-wrapper {
@@ -199,6 +206,7 @@ h1 {
   }
   .user-plate-responsive {
     text-align: center;
+    display: block;
     font-family: 'Caveat', cursive;
     font-size: 30px;
     margin-top: 50px;
