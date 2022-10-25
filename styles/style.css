@@ -167,24 +167,22 @@ h1 {
   user-select: none;
 }
 
-@media (max-width: 1399px) {
-  .main-script-outer {
-    text-align: center;
-  }
-  .main-script-inner {
-    text-align: left;
-    display: inline-block;
-    width:85%;
-  }
+.main-script-outer {
+  text-align: center;
+}
+.main-script-inner {
+  text-align: left;
+  display: inline-block;
+  width:60%;
 }
 
-@media (min-width: 1400px) {
-  .main-script-outer {
-    text-align: center;
+
+@media screen and (max-width:800px) {
+  .user-plate-wrapper {
+    display: none;
   }
   .main-script-inner {
-    text-align: left;
-    display: inline-block;
-    width:60%;
+    width: 83%;
+    
   }
 }
